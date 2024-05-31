@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
+}
+
+.welcome header{
+  height: 60px;
+  background: #DAD7E25C;
+  box-shadow: 0px 3px 10px #A5B0BB42;
+/*  background: linear-gradient(#AAA1C345,#1380E133) ;*/
+ display: flex;
+ 
+
+}
+.welcome ul {
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+
+}
+.welcome ul li{
+  margin-left: 30px;
+  font-weight: 900;
+  font-size: 17px;
+  color: white;
+  text-shadow: 0 2px 2px gray;
+ 
+}
+body{
+/*  background: #7306BF1A;*/
+background: url("/A shivamPortFolio/00000PORTRAIT_00000_BURST20240312143425504.jpg") fixed;
+background-size: cover;
+background-repeat: no-repeat;
+backdrop-filter: blur(0px);
+height: 92vh;
+}
+.welcome ul li:hover{
+  border-bottom: 4px solid #A21717;
+  padding-bottom: 18px;
+  color: #A21717;
+}
+
+.abouts{
+  margin-top: 180px;
+ color: #000000;
+  padding: 15px;
+  width: 280px;
+  height: 130px;
+  border-radius: 0px;
+  background: #F7FFFD94;
+  border-radius: 10px;
+ 
+  
+}
+.welcome footer{
+  background: #414248;
+ padding: 10px;
+  margin-top: 180px;
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+}
