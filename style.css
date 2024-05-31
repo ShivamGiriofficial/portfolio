@@ -30,7 +30,7 @@
 }
 body{
 /*  background: #7306BF1A;*/
-background: url("/A shivamPortFolio/00000PORTRAIT_00000_BURST20240312143425504.jpg") fixed;
+background: url("00000PORTRAIT_00000_BURST20240312143425504.jpg") fixed;
 background-size: cover;
 background-repeat: no-repeat;
 backdrop-filter: blur(0px);
